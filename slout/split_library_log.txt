@@ -1,0 +1,49 @@
+Input file paths
+Mapping filepath: map_complete.tsv (md5: 1cc32fc7b3a8d3bf37567ee6c5f56205)
+Sequence read filepath: fastq-join_joined/fastqjoin.join.fastq (md5: fb0fd1d2182e5643910988a4ba979f6b)
+Barcode read filepath: fastq-join_joined/fastqjoin.join_barcodes.fastq (md5: 88b153efcc0be20e135d0177ed2e927c)
+
+Quality filter results
+Total number of input sequences: 8052331
+Barcode not in mapping file: 2618719
+Read too short after quality truncation: 13576
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 253.00
+515rcbc12	1891041
+515rcbc22	225863
+515rcbc24	207404
+515rcbc10	203566
+515rcbc16	194520
+515rcbc29	186229
+515rcbc26	177640
+515rcbc19	163786
+515rcbc30	152180
+515rcbc31	144270
+515rcbc25	143431
+515rcbc14	138339
+515rcbc21	136347
+515rcbc18	128785
+515rcbc28	126495
+515rcbc15	121726
+515rcbc17	121068
+515rcbc33	115934
+515rcbc11	108796
+515rcbc32	102996
+515rcbc35	100457
+515rcbc23	82186
+515rcbc27	78170
+515rcbc9	72941
+515rcbc34	71483
+515rcbc37	69585
+515rcbc13	66881
+515rcbc8	47299
+515rcbc36	39839
+515rcbc20	779
+
+Total number seqs written	5420036
+---
+
