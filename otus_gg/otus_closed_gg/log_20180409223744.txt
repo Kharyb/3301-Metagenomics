@@ -1,0 +1,43 @@
+Logging started at 22:37:44 on 09 Apr 2018
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/lustre/home/d411/mariola/2018_v2/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+parallel:jobs_to_start	16
+
+Input file md5 sums:
+slout/seqs.fna: b2990c9c8dea6fdcfe5ce43a1fdc02f7
+/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta: 50b2269712b3738afb41892bed936c29
+/lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt: 56ef15dccf2e931ec173f4f977ed649b
+
+Executing commands.
+
+# Pick OTUs command 
+parallel_pick_otus_uclust_ref.py -i slout/seqs.fna -o otus2/uclust_ref_picked_otus -r /lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta -T --jobs_to_start 16 
+
+Stdout:
+
+Stderr:
+
+# Make OTU table command 
+make_otu_table.py -i otus2/uclust_ref_picked_otus/seqs_otus.txt -t /lustre/home/d411/mariola/.conda/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt -o otus2/otu_table.biom 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 22:41:28 on 09 Apr 2018
