@@ -19,3 +19,4 @@ Highly predictable microbial diversity patterns based on physicochemical soil pr
   <img src="https://github.com/Kharyb/3301-Metagenomics/blob/master/Images/ph.PNG" width="400"/>
 </p>
 
+Read full report: https://github.com/Kharyb/3301-Metagenomics/blob/master/Report.pdf
