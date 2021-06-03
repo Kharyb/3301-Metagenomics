@@ -1,4 +1,4 @@
-# 3301-Metagenomics
+# Metagenomics Modelling
 A Tale of Two Parks: Biogeographic patterns of microbial diversity in urban park soils, the Gordon Square data.
 
 Using Illumina sequencing of the 16S V4 region we assess the bacterial and archaeal communities of Gordon Square in London, and compare them with those of Central Park in New York City described by a previous study: http://rspb.royalsocietypublishing.org/content/281/1795/20141988
